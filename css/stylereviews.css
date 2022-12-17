@@ -1,0 +1,157 @@
+.owl-next, .owl-prev  
+{
+    display: none !important; /*Скрыть неактивную кнопку*/
+}
+.owl-dots
+{
+    display: flex;
+    justify-content: center;
+}
+.owl-dot
+{
+    width: auto;
+}
+.owl-dot span
+{
+    background: #b0c295 !important;
+}
+.owl-dot.active span
+{
+    background: #637B3C !important;
+}
+.owl-stage-outer
+{
+    padding: 0 0;
+}
+.owl-item
+{
+    width: 20vw;
+    margin-right: 2%;
+}
+.slide
+{
+    display: flex;
+    background-color: #FBFFF2;
+    flex-direction: column;
+    width: 30vw;
+}
+.slide-main
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slide-title
+{
+    font-size: 2.2vw !important;
+    color: #3C511A;
+}
+.slide-title-0
+{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5vw;
+}
+.slide img
+{
+    width: 3vw !important;
+    margin: 3% !important;
+}
+.slide-text
+{
+    background-color: white;
+    margin: 5%;
+    padding: 5%;
+    font-size: 2vw;
+    height: 20vw;
+    overflow: auto;
+    display: flex;
+    align-items: center;
+}
+.slide-text p
+{
+    margin: 0;
+    font-size: 1.7vw;
+    text-align: justify;
+}
+span
+{
+    color: #637B3C;
+}
+form
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #FBFDF3;
+    width: 30%;
+    height: 40%;
+    padding: 0 2% 1% 2%;
+    
+}
+input, button
+{
+    border-radius: 20px;
+    height: 3vw;
+    width: 100%;
+    color: #637B3C;
+    border: 1px solid #637B3C;
+    text-align: center;
+    
+}
+textarea
+{
+    height: 9vw;
+    border-radius: 20px;
+    color: #637B3C;
+    border: 1px solid #637B3C;
+    width: 100%;
+    resize: vertical;
+}
+form div
+{
+    font-size: 1.2vw;
+    color: #637B3C;
+}
+form img
+{
+    margin-right: 2%;
+    width: 2vw;
+}
+/* form img:first-child
+{
+    margin-top: 2%;
+} */
+.get-review
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 5%;
+    font-size: 1.2vw;
+}
+.get-review img:last-child
+{
+    width: 35vw;
+}
+.get-review button
+{
+    background-color: #637B3C;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2vw;
+    width: 50%;
+    margin-top: 2%;
+    height: 3vw;
+}
+.review-text
+{
+    display: flex;
+    align-items: center;
+}
+@media screen and (max-width: 844px) 
+{
+    .slide
+    {
+        width: 30vw;
+    }
+}

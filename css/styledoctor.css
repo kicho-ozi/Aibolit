@@ -1,0 +1,58 @@
+.doctor
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.doctor-card
+{
+    width: 90%;
+    background-image: url(../img/pattern.png);
+    display: flex;
+    align-items: center;
+    padding: 2%;
+    margin-bottom: 2%;
+}
+.doctor-card img
+{
+    width: 30%;
+}
+.doctor-card span
+{
+    font-size: 2.5vw;
+    font-weight: bold;
+}
+.profession
+{
+    font-size: 1.5vw;
+}
+.doctor-text
+{
+    font-size: 1.7vw;
+}
+.doctor-name
+{
+    background-color: white;
+    margin-left: 2%;
+    padding: 2%;
+}
+@media screen and (max-width:590px) 
+{
+    .doctor-card
+    {
+        flex-direction: column;
+        justify-content: center;
+        background-color: #FBFDF3;
+        background-image: none;
+        width: 60vw;
+    }
+    .doctor-card img
+    {
+        width: 80%;
+    }
+    .doctor-name
+    {
+        width: 60vw;
+        text-align: center;
+    }
+}

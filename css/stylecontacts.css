@@ -1,0 +1,139 @@
+.contacts
+{
+    display: flex;
+    justify-content: space-around;
+}
+.contacts-information
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 7%;
+}
+.contacts-information-block p:first-child
+{
+    color: #637B3C;
+}
+.contacts-text
+{
+    /* margin: 0 10%; */
+    width: 30vw;
+}
+.contacts-text p
+{
+    font-size: 1.3vw;
+}
+.contacts-form
+{
+    width: 40%;
+}
+span
+{
+    font-size: 2.2vw;
+}
+.contacts-date
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FBFDF3;
+    margin: 4% 10% 7% 0;
+    padding: 2%;
+}
+input, select, button
+{
+    border-radius: 20px;
+    height: 3vw;
+    width: 30vw;
+    margin: 2%;
+    color: #637B3C;
+    border: 1px solid #637B3C;
+    text-align: center;
+    font-size: 1.2vw;
+}
+button
+{
+    background-color: #637B3C;
+    color: white;
+    font-weight: bold;
+    width: 15vw;
+    font-size: 1.4vw;
+}
+.div-button
+{
+    display: flex;
+    justify-content: center;
+}
+input::-moz-placeholder 
+{ 
+    color: #637B3C; 
+}
+input::-webkit-input-placeholder
+{
+    color: #637B3C;
+}
+form div
+{
+    font-size: 1.3vw;
+    color: #637B3C;
+    
+}
+form img
+{
+    margin-right: 2%;
+    margin-left: 7%;
+    width: 2vw;
+}
+form img:first-child
+{
+    margin-top: 2%;
+}
+@media screen and (max-width:590px) 
+{
+    .contacts
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contacts-date
+    {
+        margin-bottom: 7%;
+        justify-content: space-between;
+    }
+    .contacts-information
+    {
+        margin: 0;
+        justify-content: space-between;
+    }
+    .contacts-text
+    {
+        margin: 0;
+        padding: 0 15%;
+    }
+    .contacts-information-block:first-child
+    {
+        margin-right: 10%;
+    }
+    .contacts-information-block
+    {
+        margin: 0;
+    }
+    .contacts-form span, .contacts-text span:first-child
+    {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}

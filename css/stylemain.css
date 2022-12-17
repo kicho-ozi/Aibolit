@@ -1,0 +1,169 @@
+.about-us
+{
+    display: flex;
+    height: 30vw;
+    background-image: url(../img/pattern.png);
+}
+.about-us p
+{
+    margin: 0 5%; 
+    font-size: 1.65vw;
+    text-align: justify;
+}
+.about-us img
+{
+    width: 40vw;
+    height: 27vw;
+    margin-top: 3%;
+    margin-left: 10%;
+}
+.owl-next, .owl-prev  
+{
+    display: none !important; /*Скрыть неактивную кнопку*/
+}
+.services
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 0 5%;
+    gap: 0.5vw;
+}
+.services-card
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 1.4% 0 1.4%;
+}
+.services-card .none
+{
+    display: none;
+}
+.services-card img
+{
+    width: 10vw;
+}
+.services-card span
+{
+    display: flex;
+    font-family: Comfortaa;
+    font-size: 1.8vw;
+    width: 14vw;
+    height: 5vw;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 5px 5px 0;
+}
+.services-card button
+{
+    display: flex;
+    width: 15vw;
+    height: 4vw;
+    background-color: #E1EBCB;
+    color: #637B3C;
+    border: none;
+    border-radius: 20px;
+    font-size: 1.3vw;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+    cursor: pointer;
+}
+.services-card button:hover
+{
+    color: white;
+    background-color: #637B3C;
+}
+.reviews-people
+{
+    height: 20vw;
+    width: 100%;
+    background-image: url(../img/pattern.png);
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reviews-people-inside
+{
+    width: 100%;
+    height: 14vw;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2% 0 0 0;
+}
+.reviews-people-card
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35vw;
+}
+.reviews-people-card p
+{
+    margin: 1% 1% 2% 1%;
+    font-size: 1.5vw;
+}
+.reviews-people-card p:first-child
+{
+    margin: 2%;
+    font-size: 2vw;
+}
+.reviews-people-card p:last-child
+{
+    height: 8vw;
+    overflow: auto;
+}
+@media screen and (max-width: 1116px)
+{
+    .services-card
+    {
+        flex-direction: row;
+    }
+    .services-card span
+    {
+        display: none;
+    }
+    .services-card .none
+    {
+        display: flex;
+        width: 30vw;
+        height: 70px;
+        background-color: #E1EBCB;
+        color: #637B3C;
+        font-family: Comfortaa;
+        text-decoration: none;
+        border: none;
+        border-radius: 20px;
+        font-size: 2.5vw;
+        justify-content: center;
+        align-items: center;
+        margin: 5%;
+        text-align: center;
+        padding: 0 2%;
+    }
+    .services-card button
+    {
+        display: none;
+    }
+}
+@media screen and (max-width: 590px)
+{
+    .services-card
+    {
+        width: 100%;
+        padding: 0 80px;
+        display: flex;
+        justify-content: center;
+    }
+    .services-card .none
+    {
+        width: 30vw;
+        height: 10vw;
+    }
+}
