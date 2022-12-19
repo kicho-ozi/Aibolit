@@ -34,21 +34,21 @@ a
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 126px;
+    height: 8vw;
 }
 .logo-name
 {
-    width: 300px;
-    height: 90px;
+    height: 7vw;
 }
 .logo
 {
     display: none;
 }
-.contact-text-1, .contact-text-2
+.contact-text
 {
     color: #637B3C;
     font: inter-regular;
+    font-size: 1vw;
 }
 .navbar
 {
@@ -82,7 +82,7 @@ a
 {
     text-decoration: none;
     color: #637B3C;
-    font-size: 18px;
+    font-size: 1.3vw;
 }
 ul
 {
@@ -176,6 +176,7 @@ ul
 .map
 {
     width: 40vw;
+    border: 0;
 }
 h1
 {
