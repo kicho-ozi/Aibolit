@@ -29,6 +29,7 @@
 .doctor-text
 {
     font-size: 1.7vw;
+    text-align: justify;
 }
 .doctor-name
 {
@@ -53,6 +54,23 @@
     .doctor-name
     {
         width: 60vw;
-        text-align: center;
+        margin: 0;
+        padding: 5%;
+    }
+    .doctor-card
+    {
+        width: 70vw;
+    }
+    .doctor-card span
+    {
+        font-size: 3.5vw;
+    }
+    .profession
+    {
+        font-size: 2vw;
+    }
+    .doctor-text
+    {
+        font-size: 2.5vw;
     }
 }

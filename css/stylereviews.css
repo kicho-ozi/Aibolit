@@ -72,7 +72,6 @@
 {
     margin: 0;
     font-size: 1.7vw;
-    text-align: justify;
 }
 span
 {
@@ -117,10 +116,6 @@ form img
     margin-right: 2%;
     width: 2vw;
 }
-/* form img:first-child
-{
-    margin-top: 2%;
-} */
 .get-review
 {
     display: flex;
@@ -148,10 +143,51 @@ form img
     display: flex;
     align-items: center;
 }
-@media screen and (max-width: 844px) 
+.review-text p
+    {
+        font-size: 1.5vw;
+    }
+    .get-review button
+    {
+        height: 3vw;
+        font-size: 1.5vw;
+    }
+@media screen and (max-width: 590px) 
 {
     .slide
     {
-        width: 30vw;
+        width: 40vw;
+        height: 50vw;
+    }
+    .slide-title
+    {
+        font-size: 3.5vw !important;
+    }
+    .slide-title-0 span:last-child
+    {
+        font-size: 2vw;
+    }
+    .slide-text p
+    {
+        font-size: 2.7vw;
+        margin: 5%;
+    }
+    .slide-text
+    {
+        height: 80vw;
+    }
+    
+}
+@media screen and (max-width:1116px)
+{
+    .review-text p
+    {
+        font-size: 2vw;
+        margin: 3%;
+    }
+    .get-review button
+    {
+        height: 4vw;
+        font-size: 1.7vw;
     }
 }

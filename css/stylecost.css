@@ -55,21 +55,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.button a
-{
-    text-decoration: none;
     color: #637B3C;
-    text-align: center;
 }
 .button:hover
 {
     color: white;
     background-color: #637B3C;
-}
-.button a:hover
-{
-    color: white;
 }
 .pop_up
 {
@@ -182,6 +173,14 @@ form img:first-child
 {
     margin-top: 2%;
 }
+.cost-card:nth-child(4) .cost-services div:nth-child(-n+2)
+{
+    height: 5.5vw;
+}
+.cost-card:nth-child(7) .cost-services div:last-child
+{
+    height: 5.5vw;
+}
 @media screen and (max-width: 1116px)
 {
     .pop_up_body
@@ -214,5 +213,36 @@ form img:first-child
     .pop_up_body input, .pop_up_body button, .pop_up_body select
     {
         height: 30px;
+    }
+    .cost-card span
+    {
+        font-size: 3.5vw;
+    }
+    .cost-services
+    {
+        font-size: 2.5vw;
+    }
+    .cost-services p:first-child
+    {
+        width: 80%;
+    }
+    .cost-services div
+    {
+        height: 5.5vw;
+    }
+    .cost-card:nth-child(4) .cost-services div:nth-child(-n+2)
+    {
+        height: 9vw;
+    }
+    .cost-card:nth-child(7) .cost-services div:last-child
+    {
+        height: 9vw;
+    }
+    .button
+    {
+        height: 6vw;
+        font-size: 2.5vw;
+        width: 35%;
+        margin: 2% 0 2% 60%;
     }
 }

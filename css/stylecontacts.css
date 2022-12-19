@@ -13,13 +13,12 @@
     width: 100%;
     margin-bottom: 7%;
 }
-.contacts-information-block p:first-child
+.contacts-information p:first-child
 {
     color: #637B3C;
 }
 .contacts-text
 {
-    /* margin: 0 10%; */
     width: 30vw;
 }
 .contacts-text p
@@ -71,11 +70,6 @@ button
     width: 15vw;
     font-size: 1.4vw;
 }
-.div-button
-{
-    display: flex;
-    justify-content: center;
-}
 input::-moz-placeholder 
 { 
     color: #637B3C; 
@@ -115,25 +109,49 @@ form img:first-child
     .contacts-information
     {
         margin: 0;
-        justify-content: space-between;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
     }
     .contacts-text
     {
         margin: 0;
         padding: 0 15%;
+        width: 60vw;
     }
-    .contacts-information-block:first-child
+    .contacts-text p 
     {
-        margin-right: 10%;
+        font-size: 3vw;
     }
-    .contacts-information-block
+    .contacts-form
     {
-        margin: 0;
+        width: 60%;
+    }
+    form div
+    {
+        font-size: 3vw;
+    }
+    form 
+    {
+        margin: 5% 0;
     }
     .contacts-form span, .contacts-text span:first-child
     {
         width: 100%;
         display: flex;
         justify-content: center;
+        font-size: 4vw;
+    }
+    input, select
+    {
+        height: 5vw;
+        width: 40vw;
+        font-size: 2vw;
+    }
+    button 
+    {
+        width: 50vw;
+        font-size: 2.5vw;
+        height: 5vw;
     }
 }
