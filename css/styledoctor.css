@@ -22,7 +22,7 @@
     font-size: 2.5vw;
     font-weight: bold;
 }
-.doctor-card p:first-child
+.doctor-card p
 {
     font-size: 1.5vw;
 }
@@ -63,14 +63,14 @@
     }
     .doctor-card span
     {
-        font-size: 3.5vw;
+        font-size: 4vw;
     }
-    .profession
+    .doctor-name p
     {
-        font-size: 2vw;
+        font-size: 2.7vw;
     }
-    .doctor-text
+    .doctor-name p:last-child
     {
-        font-size: 2.5vw;
+        font-size: 3vw;
     }
 }

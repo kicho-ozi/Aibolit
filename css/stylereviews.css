@@ -81,10 +81,10 @@ form
 {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     background-color: #FBFDF3;
-    width: 30%;
-    height: 40%;
-    padding: 0 2% 1% 2%;
+    width: 30vw;
+    padding: 0 3% 1% 2%;
     
 }
 input, button
@@ -144,14 +144,14 @@ form img
     align-items: center;
 }
 .review-text p
-    {
-        font-size: 1.5vw;
-    }
-    .get-review button
-    {
-        height: 3vw;
-        font-size: 1.5vw;
-    }
+{
+    font-size: 1.5vw;
+}
+.get-review button
+{
+    height: 3vw;
+    font-size: 1.5vw;
+}
 @media screen and (max-width: 590px) 
 {
     .slide
@@ -180,14 +180,27 @@ form img
 }
 @media screen and (max-width:1116px)
 {
+    form 
+    {
+        width: 50vw;
+        height: 50vw;
+    }
+    textarea
+    {
+        height: 20vw;
+    }
+    input, button
+    {
+        height: 5vw;
+    }
     .review-text p
     {
-        font-size: 2vw;
+        font-size: 2.5vw;
         margin: 3%;
     }
     .get-review button
     {
-        height: 4vw;
-        font-size: 1.7vw;
+        height: 5vw;
+        font-size: 2.5vw;
     }
 }
